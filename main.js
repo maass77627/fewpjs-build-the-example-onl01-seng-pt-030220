@@ -10,7 +10,7 @@ for (i = 0; i < o; i++) {
 }
 //hearts[i].addEventListener("click", mimicServerCall())
 
-console.log(hearts)
+//console.log(hearts)
 
 
 
