@@ -15,7 +15,7 @@ for (i = 0; i < o; i++) {
     })
     .catch(function(){
       console.log("Error")
-      
+
     })
   }
 
