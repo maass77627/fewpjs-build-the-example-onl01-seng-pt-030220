@@ -3,8 +3,8 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-document.getElementsByClassName("like-glyth")
-.addEventListener("click", mimicServerCall())
+const heart = document.getElementsByClassName("like-glyth")
+heart.addEventListener("click", mimicServerCall())
 
 
 
