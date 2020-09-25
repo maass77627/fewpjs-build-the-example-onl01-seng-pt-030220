@@ -4,7 +4,11 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 let hearts = document.getElementsByClassName('like-glyth')
-//heart.addEventListener("click", mimicServerCall())
+let o = hearts.length
+for (i = 0; i < o; i++) {
+  hearts[i].addEventListener("click", mimicServerCall())
+}
+//hearts[i].addEventListener("click", mimicServerCall())
 
 console.log(hearts)
 
