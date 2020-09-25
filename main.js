@@ -6,7 +6,7 @@ const FULL_HEART = '♥'
 let hearts = document.getElementsByClassName('like-glyth')
 let o = hearts.length
 for (i = 0; i < o; i++) {
-  hearts[i].addEventListener("click", mimicServerCall(){
+  hearts[i].addEventListener("click", mimicServerCall()){
     .then(function(response){
       response.json
     })
