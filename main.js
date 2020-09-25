@@ -13,7 +13,7 @@ for (i = 0; i < o; i++) {
     .then(function(json){
       console.log(json)
     })
-  }) 
+  })
 }
 //hearts[i].addEventListener("click", mimicServerCall())
 
